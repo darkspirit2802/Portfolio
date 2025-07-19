@@ -3,32 +3,34 @@ export const myProjects = [
     id: 1,
     title: "Splitr",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A modern expense-splitting application inspired by Splitwise, enabling seamless group expense tracking and smart settlement suggestions.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built with React and Tailwind CSS for a sleek, responsive user interface.",
+      "Implemented real-time data handling and state management using modern React hooks and context.",
+      "Integrated AI to provide smart settlement recommendations and spending insights.",
+      "Enabled group creation, expense tracking, and debt management for individuals and teams.",
+      "Deployed on Vercel for fast, scalable, and globally accessible performance.",
     ],
-    href: "",
+
+    href: "https://splitr-navy.vercel.app/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/splitr-app.jpg",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Javascirpt",
+        path: "/assets/logos/javascript.svg",
       },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
+      // {
+      //   id: 3,
+      //   name: "",
+      //   path: "/assets/logos/efcore.png",
+      // },
       {
         id: 4,
         name: "TailwindCSS",

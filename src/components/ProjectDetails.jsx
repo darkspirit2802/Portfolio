@@ -42,7 +42,7 @@ const ProjectDetails = ({
             </div>
             <a
               className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
-              href=""
+              href="https://splitr-navy.vercel.app/"
             >
               {" "}
               View Project <img src="assets/arrow-up.svg" className="size-4" />
