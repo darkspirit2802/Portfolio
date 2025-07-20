@@ -40,14 +40,16 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "SAAS app",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Converso is an AI-powered SaaS platform that enables smart, human-like conversations for learning, customer engagement, and task automation—offering instant responses, context-aware dialogue, and seamless integration into your workflow.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "⚡ Built with Next.js and shadcn/ui for a fast, clean, and accessible user interface.",
+      "🔐 Integrated Clerk for secure, seamless authentication and user management.",
+      "🧠 Connected to powerful AI models to generate human-like, context-aware conversations.",
+      "📚 Designed to assist in real-time learning,  or support workflows.",
+      "📦 Supabase handles database, auth, and storage with real-time syncing and scalability.",
+      "🎯 Personalized learning paths, chat history, and user preferences stored securely.",
     ],
     href: "",
     logo: "",
@@ -65,8 +67,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "next.js",
+        path: "/assets/logos/nextjs.svg",
       },
       {
         id: 4,
@@ -77,14 +79,16 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Wanderlust",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Wanderlust is a full-stack Airbnb-style platform that connects travelers with unique stays and experiences across the globe—built for seamless discovery, booking, and hosting.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "🌍 Discover handpicked stays and experiences from trusted local hosts worldwide.",
+      "🏡 Hosts can list properties with images, amenities, and real-time availability.",
+      "⚡ Built with Next.js, Tailwind CSS, and shadcn/ui for a fast, responsive interface.",
+      "🔐 Integrated Clerk for secure user authentication and account management.",
+      "📦 Uses Supabase for database, storage, and serverless functions.",
+      "🗺️ Includes interactive maps, filters, reviews, and wishlist features.",
     ],
     href: "",
     logo: "",
@@ -92,18 +96,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Javascript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "vite",
+        path: "/assets/logos/vitejs.svg",
       },
       {
         id: 4,
